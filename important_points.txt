@@ -1,0 +1,39 @@
+1 : Go will not compile your code if you have any unused variable or anything
+-----------------------------------------------------------
+1.1 : if you are declaring and assigning at the same time 
+use  :=   
+not =
+
+-----------------------------------------------
+2 : when you iterate over string in go using range
+-> you get starting byte of rune and unicode
+imp** : you don't get index 
+ex : 
+	for i, c := range "golang" {
+		fmt.Println(i, c)
+	}
+- it will give you starting byte of rune [not index]
+* those chracter who falls under 255 counting they fit it 1 Byte but after that it could be 2 or more bytes
+* suppose string is "xgolang"
+=> where x is 300 [in unicode]
+then it will take 2 byte
+=> so when you traverse then i will be 
+=> 0 2 3 4 5  [1 is skipped as it took 2 byte]
+=> that's why it starting byte not the index
+
+- and ascii: [unicode code point rune] values
+- [rune : is a kind of datastructure]
+
+
+* ascii : if you use ascii encoding then there are 255 counting
+* unicode : beyond 255 characters 
+------------------------------------------------------------
+
+3 : only for loop is there to iterate or looping
+------------------------------------------------------------
+
+4 : there is no need of using break keyword in switch case to avoid the forward priting of the values without matching the case values
+
+5 : if you don't want to use any variable of returnv values then you can use _ temporarily at the place of that
+
+6 : functions are first class citizen so you can assign them to a variable, pass as a variable in function and totally you can use that as a variable [arg, return, ... in many more ways]
