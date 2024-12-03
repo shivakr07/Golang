@@ -37,3 +37,8 @@ then it will take 2 byte
 5 : if you don't want to use any variable of returnv values then you can use _ temporarily at the place of that
 
 6 : functions are first class citizen so you can assign them to a variable, pass as a variable in function and totally you can use that as a variable [arg, return, ... in many more ways]
+
+7 : for any type in go you can use
+ex : 
+    interface {}
+	
