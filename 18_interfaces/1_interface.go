@@ -96,7 +96,8 @@ func main() {
 
 	newPayment.makePayment(100)
 
-	// previously we have learned that in struct fields are optional but we have to instantiate [constructor pattern]
+	// previously we have learned that in struct fields are optional
+	// but the functions attatched with that structs  we have to instantiate [constructor pattern]
 	// by making a function as we have seen
 	// and params of function   while instantiation
 
