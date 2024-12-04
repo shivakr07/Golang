@@ -89,3 +89,5 @@ func main() {
 	}
 	fmt.Println(myStack2)
 }
+
+// generics
