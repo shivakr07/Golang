@@ -1,0 +1,28 @@
+package main
+
+what the fuck i am doing with i am doing does this ...[
+    what the fuck i amdddoing with this f djk jkj 
+    this is the fuck 
+    this is the fuck what i am doing ...
+    [
+        this is the fuck what i am doing what i am dfkjdkldjjldj dj this is the fuck what i am doing... this is the
+        
+    ]
+]
+func main({
+
+    name := "sg"
+    this is the fuck this is the fuck...
+    what is the fuck i am doing this is fuck i am doing with this..
+    {
+        this is the fuck ...
+        what is the fuck i am doing with my life what i am doing...
+        this is the fuck i am doing with myself 
+        but this the this is the fuck i am doing ...
+        {
+            this is the fuck
+            what the fuck i am doing 
+            "this is the fuck"  this is the fuck i am doinng with my self with my life what i am doing ...gg
+        }
+    }
+})
